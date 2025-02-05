@@ -14,6 +14,7 @@ const UserSchema = new mongoose.Schema({
         type:String,
         required:true
     },
+    googleId: { type: String, unique: true, sparse: true },
     role:{
         type:String,
         default:'user'
@@ -23,7 +24,7 @@ const UserSchema = new mongoose.Schema({
         default:''
 
     },
-    Phone:{
+    phone:{
         type:String,
         default:''
     },
