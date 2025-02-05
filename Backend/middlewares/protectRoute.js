@@ -4,7 +4,8 @@ import dotenv from 'dotenv';
 import User from '../models/User.model.js';
 
 dotenv.config()
-export const protectRoute = (req, res, next) => {
+export const protectRoute = async (req, res, next) => {
+    
     const authHeader = req.headers.authorization
 
     if(!authHeader){
@@ -20,11 +21,14 @@ export const protectRoute = (req, res, next) => {
 
     const {id,role} = decoded
 
-   const user = User.findOne({_id:id}).select('-password')
+    const user = await User.findOne({ _id: id }).select('-password');
+
+
     if(!user){
         return res.status(401).json({message:'User not found'})
     }
     req.user = user
+    
     next()
 
 
