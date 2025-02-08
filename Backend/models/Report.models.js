@@ -1,15 +1,15 @@
 import mongoose from "mongoose";
 
 const reportSchema = new mongoose.Schema({
-  reporterId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true }, // Buyer reporting
-  reportedVendorId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true }, // Vendor being reported
+  reporterId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true }, 
+  reportedVendorId: { type: mongoose.Schema.Types.ObjectId, ref: "User", required: true }, 
   reason: { 
     type: String, 
     enum: ["Fraud", "Fake Product", "Scam", "Harassment", "Other"], 
     required: true 
   },
-  description: { type: String, required: true }, // Details of the complaint
-  status: { type: String, enum: ["Pending", "Reviewed"], default: "Pending" }, // Admin action
+  description: { type: String, required: true }, 
+  status: { type: String, enum: ["Pending", "Reviewed"], default: "Pending" }, 
   createdAt: { type: Date, default: Date.now }
 });
 

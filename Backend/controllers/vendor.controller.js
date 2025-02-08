@@ -39,7 +39,6 @@ export const addVendor = async (req, res) => {
       address
     });
 
-    
     await vendor.save();
 
     

@@ -4,13 +4,13 @@ import { login, logout, signup, completeProfile, updateProfile, googleSignup } f
 import { protectRoute} from '../middlewares/protectRoute.js';
 import passport from 'passport';
 
-
 const router = express.Router();
-
 const upload = multer({ dest: 'uploads/' }); 
 
 router.post('/signup', signup);
+
 router.post('/login', login);
+
 router.post('/google-signup', googleSignup);
 
 router.post('/logout',protectRoute,logout)
@@ -32,6 +32,8 @@ router.get('/google/callback',
         res.redirect('http://localhost:3000/dashboard'); 
     }
 );
+
+
 
 export default router;
 
