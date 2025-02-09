@@ -5,13 +5,14 @@ const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   category: { type: String,ref:"Category", required: true },
   price: { type: Number, required: true },
-  stock: {type:Number, required: true},
+  stock: {type:Number, default: 1},
   sold: {type:Number},
-  description: { type: String, required: true },
+  description: { type: String, default: ""},
   variations: [
     {
-      color: String,
-      image: String,      
+      size: {type:String , default: ""},
+      color:{type:String , default: ""} ,
+      image: {type:String , default: ""},      
     }
   ],
   attributes: { type: mongoose.Schema.Types.Mixed },
