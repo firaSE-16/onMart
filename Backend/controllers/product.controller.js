@@ -47,6 +47,8 @@ export const addProduct = async (req, res) => {
       sellerId: req.user._id,
     });
 
+    newProduct.save()
+
     res.status(201).json({
       message: "Product added successfully",
       product: newProduct,
@@ -212,7 +214,7 @@ export const addBanner = async (req,res)=>{
     resource_type: "image",
   });
   
-  imageUrl = cloudinaryResponse.secure_url;
+  const imageUrl = cloudinaryResponse.secure_url;
   fs.unlinkSync(file.path);
 
   const newBanner = Banner.create({
@@ -220,6 +222,11 @@ export const addBanner = async (req,res)=>{
     category,
     imageUrl,
   })
+  newBanner.save()
+  res.status(201).json({
+    message: "Banner added successfully",
+    banner: newBanner,
+  });
 
 
 }
