@@ -1,4 +1,5 @@
-import {BrowseRouter, Route, Routes} from 'react-router-dom'
+import React from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'; 
 import Layout from './layout/user/Layout'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-    <BrowseRouter>
+    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Layout/>} >
       <Route index element={<Home/>} />
@@ -31,10 +32,10 @@ function App() {
       <Route path='compare' element={<Compare/>}/>
       <Route path='auth' element={<Auth/>} />
       </Route>
-
     </Routes>
 
-    </BrowseRouter>
+
+    </BrowserRouter>
     </>
   )
 }
