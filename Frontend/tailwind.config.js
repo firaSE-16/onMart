@@ -2,10 +2,13 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // Add your file extensions
+    "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '400px',
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
