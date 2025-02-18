@@ -1,9 +1,12 @@
-import React from 'react'
-
+import React, { useEffect, useState } from 'react'
+import data from '../../data/banner.json'
+import Banner from '../../components/Home/Banner';
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+    return(
+      <div>
+        <Banner/>
+      </div>
+    )
+};
 
-export default Home
+export default Home;
