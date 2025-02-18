@@ -6,14 +6,24 @@ export default {
   ],
   theme: {
     extend: {
-      screens: {
-        'xs': '400px',
-      },
-      fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-      },
+        keyframes: {
+            fadeZoomIn: {
+                '0%': { opacity: 0, transform: 'scale(1.1)' },
+                '100%': { opacity: 1, transform: 'scale(1)' },
+            },
+            textSlideIn: {
+                '0%': { opacity: 0, transform: 'translateY(20px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+            },
+        },
+        animation: {
+            fadeZoomIn: 'fadeZoomIn 1.5s ease-out',
+            textSlideIn: 'textSlideIn 0.8s ease-out forwards',
+        },
     },
-  },
+},
   plugins: [],
 }
 
+
+ 

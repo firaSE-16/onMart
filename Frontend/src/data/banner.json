@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Cutting-Edge Electronics Collection",
+    "description": "Discover revolutionary gadgets, ultra-HD smart TVs, and premium accessories that transform your digital lifestyle. Experience innovation at your fingertips!",
+    "image": "/assets/Banners/electorincs.jpg"
+  },
+  {
+    "title": "Unbeatable Mobile Deals",
+    "description": "Own the latest smartphones with flagship features at budget prices. From power-packed performers to camera masters - your perfect match awaits!",
+    "image": "/assets/Banners/phones.jpg"
+  },
+  {
+    "title": "Luxury Timepieces Redefined",
+    "description": "Elevate your style with premium watches where precision engineering meets bold aesthetics. Perfect for boardrooms, adventures, and special occasions!",
+    "image": "/assets/Banners/watches.jpg"
+  },
+  {
+    "title": "Seasonal Fashion Essentials",
+    "description": "Explore curated collections for every wardrobe - from office chic to weekend casual. Confidence starts with every stitch!",
+    "image": "/assets/Banners/clothes.jpg"
+  },
+  {
+    "title": "Modern Living Spaces",
+    "description": "Transform your home with ergonomic furniture combining contemporary design and unmatched comfort. Create your dream space today!",
+    "image": "/assets/Banners/furniture.jpg"
+  },
+  {
+    "title": "Secure Payment Ecosystem",
+    "description": "Shop with 256-bit encryption security! Flexible payment options: mobile money, credit cards, and cash-on-delivery.",
+    "image": "/assets/Banners/payment.jpg"
+  },
+  {
+    "title": "Ethiopia-Wide Shopping",
+    "description": "From Addis markets to rural villages - we deliver everywhere! Your favorite products, now just a click away.",
+    "image": "/assets/Banners/place.jpg"
+  },
+  {
+    "title": "Lightning-Fast Delivery",
+    "description": "Receive orders within 24-48 hours in cities! Our rocket-speed logistics network never keeps you waiting.",
+    "image": "/assets/Banners/delivery.jpg"
+  },
+  {
+    "title": "Exclusive Member Discounts",
+    "description": "Unlock up to 70% OFF on premium brands! Limited-time offers for savvy shoppers - luxury within reach.",
+    "image": "/assets/Banners/discount.jpg"
+  }
+]
