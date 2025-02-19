@@ -1,0 +1,442 @@
+[
+    {
+      "sellerId": "65a1d34b8c7d4e2d4e3b5a1d",
+      "name": "Dell Precision Workstation",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a11", "name": "Electronics" },
+      "price": 1899.99,
+      "description": "Professional-grade desktop with Xeon processor",
+      "variations": [{"image": "/assets/Product/delldesktop.png"}],
+      "attributes": {
+        "processor": "Intel Xeon W-1370",
+        "ram": "32GB ECC",
+        "storage": "1TB SSD + 2TB HDD"
+      }
+    },
+    {
+      "name": "Apple iMac Pro",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a11", "name": "Electronics" },
+      "price": 2499.00,
+      "variations": [{"image": "/assets/Product/appledesktop.png"}],
+      "attributes": {
+        "display": "27-inch 5K Retina",
+        "processor": "M1 Pro",
+        "storage": "512GB SSD"
+      }
+    },
+  
+  
+    {
+      "name": "Alienware Gaming Rig",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a11", "name": "Electronics" },
+      "price": 3299.99,
+      "variations": [{"image": "/assets/Product/gamingdesktop.png"}],
+      "attributes": {
+        "gpu": "RTX 4090",
+        "cooling": "Liquid-cooled",
+        "rgb": "Customizable lighting"
+      }
+    },
+  
+
+    {
+      "name": "Smart French Door Refrigerator",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a12", "name": "Appliances" },
+      "price": 2899.00,
+      "variations": [
+        {"image": "/assets/Product/refrigator.png"},
+        {"image": "/assets/Product/refrigator2.png"}
+      ],
+      "attributes": {
+        "capacity": "28 cu.ft.",
+        "features": "Smart cooling, ice maker"
+      }
+    },
+    {
+      "name": "Industrial Washing Machine",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a12", "name": "Appliances" },
+      "price": 1299.00,
+      "variations": [{"image": "/assets/Product/laundary.png"}],
+      "attributes": {
+        "capacity": "15kg",
+        "energy": "A+++ rating"
+      }
+    },
+  
+   
+    {
+      "name": "Premium Leather Sofa Set",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a13", "name": "Furniture" },
+      "price": 2199.00,
+      "variations": [
+        {"image": "/assets/Product/sofa.png"},
+        {"image": "/assets/Product/sofachair.png"}
+      ],
+      "attributes": {
+        "material": "Full-grain leather",
+        "configuration": "3+1+1 set"
+      }
+    },
+    {
+      "name": "Ergonomic Office Chair",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a13", "name": "Furniture" },
+      "price": 499.00,
+      "variations": [{"image": "/assets/Product/officechair.png"}],
+      "attributes": {
+        "adjustments": "Lumbar support, tilt mechanism"
+      }
+    },
+    {
+      "name": "King Size Bed Frame",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a13", "name": "Furniture" },
+      "price": 899.00,
+      "variations": [{"image": "/assets/Product/bed.png"}],
+      "attributes": {
+        "size": "76x80 inches",
+        "material": "Solid oak wood"
+      }
+    },
+  
+ 
+    {
+      "name": "Men's Premium T-Shirt",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 29.99,
+      "variations": [{"image": "/assets/Product/tshirt.png"}],
+      "attributes": {
+        "material": "100% Organic Cotton",
+        "fit": "Regular fit"
+      }
+    },
+    {
+      "name": "Business Suit Set",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 299.00,
+      "variations": [{"image": "/assets/Product/suit.png"}],
+      "attributes": {
+        "composition": "Wool blend",
+        "includes": "Jacket + pants"
+      }
+    },
+    {
+      "name": "Formal Dress Shirt",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 59.99,
+      "variations": [{"image": "/assets/Product/dressshirt.png"}],
+      "attributes": {
+        "collar": "Spread collar",
+        "cuff": "Single cuff"
+      }
+    },
+    {
+      "name": "Classic Baseball Cap",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 24.99,
+      "variations": [{"image": "/assets/Product/cap.png"}],
+      "attributes": {
+        "closure": "Adjustable strap",
+        "material": "Cotton twill"
+      }
+    },
+    {
+      "name": "Women's Evening Dress",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 149.99,
+      "variations": [
+        {"image": "/assets/Product/womendress.png"},
+        {"image": "/assets/Product/womendress1.png"}
+      ],
+      "attributes": {
+        "style": "A-line silhouette",
+        "length": "Floor-length"
+      }
+    },
+    {
+      "name": "Women's Casual Blouse",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a14", "name": "Clothing" },
+      "price": 39.99,
+      "variations": [{"image": "/assets/Product/womenshirt.png"}],
+      "attributes": {
+        "pattern": "Floral print",
+        "sleeve": "3/4 length"
+      }
+    },
+  
+    
+    {
+      "name": "Adidas Ultraboost",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a15", "name": "Footwear" },
+      "price": 179.99,
+      "variations": [{"image": "/assets/Product/adidas.png"}],
+      "attributes": {
+        "technology": "Boost midsole",
+        "weight": "270g"
+      }
+    },
+    {
+      "name": "Nike Sport Shoes",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a15", "name": "Footwear" },
+      "price": 129.99,
+      "variations": [{"image": "/assets/Product/nikesport.png"}],
+      "attributes": {
+        "purpose": "Running",
+        "drop": "10mm"
+      }
+    },
+    {
+      "name": "Nike Air Force 1",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a15", "name": "Footwear" },
+      "price": 110.00,
+      "variations": [{"image": "/assets/Product/airforce.png"}],
+      "attributes": {
+        "style": "Low-top",
+        "closure": "Lace-up"
+      }
+    },
+    {
+      "name": "Men's Leather Oxfords",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a15", "name": "Footwear" },
+      "price": 159.99,
+      "variations": [{"image": "/assets/Product/leathershoes.png"}],
+      "attributes": {
+        "material": "Full-grain leather",
+        "sole": "Rubber"
+      }
+    },
+    {
+      "name": "Women's Fashion Heels",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a15", "name": "Footwear" },
+      "price": 89.99,
+      "variations": [
+        {"image": "/assets/Product/womenshoes.png"},
+        {"image": "/assets/Product/womenshoes2.png"},
+        {"image": "/assets/Product/womenshoes3.png"}
+      ],
+      "attributes": {
+        "heel": "3 inch",
+        "closure": "Ankle strap"
+      }
+    },
+  
+    
+    {
+      "name": "Omega Seamaster",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a16", "name": "Watches" },
+      "price": 5999.00,
+      "variations": [{"image": "/assets/Product/omegawatches.png"}],
+      "attributes": {
+        "movement": "Automatic",
+        "water": "300m"
+      }
+    },
+    {
+      "name": "Casio G-Shock",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a16", "name": "Watches" },
+      "price": 129.99,
+      "variations": [{"image": "/assets/Product/casiowatches.png"}],
+      "attributes": {
+        "features": "Shock resistant, 200m WR"
+      }
+    },
+  
+    
+    {
+      "name": "Toyota Camry",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 29900.00,
+      "variations": [{"image": "/assets/Product/Toyota.png"}],
+      "attributes": {
+        "engine": "2.5L Hybrid",
+        "mileage": "45 MPG"
+      }
+    },
+    {
+      "name": "Toyota Fortuner",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 45000.00,
+      "variations": [{"image": "/assets/Product/toyotaforuner.png"}],
+      "attributes": {
+        "drivetrain": "4WD",
+        "seating": "7 seats"
+      }
+    },
+    {
+      "name": "Toyota Hilux",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 32500.00,
+      "variations": [{"image": "/assets/Product/toyotahilux.png"}],
+      "attributes": {
+        "payload": "1 ton",
+        "engine": "2.8L Diesel"
+      }
+    },
+    {
+      "name": "Dump Truck",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 125000.00,
+      "variations": [{"image": "/assets/Product/dumptruck.png"}],
+      "attributes": {
+        "capacity": "15 cubic yards",
+        "engine": "Cummins 6.7L"
+      }
+    },
+    {
+      "name": "Tourist Bus",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 185000.00,
+      "variations": [{"image": "/assets/Product/tourbus.png"}],
+      "attributes": {
+        "capacity": "45 seats",
+        "features": "AC, WC"
+      }
+    },
+    {
+      "name": "Cargo Van",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 35000.00,
+      "variations": [{"image": "/assets/Product/van.png"}],
+      "attributes": {
+        "payload": "2000 lbs",
+        "cargo": "300 cu.ft."
+      }
+    },
+    {
+      "name": "Tesla Model 3",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a17", "name": "Vehicles" },
+      "price": 42990.00,
+      "variations": [{"image": "/assets/Product/tesela.png"}],
+      "attributes": {
+        "range": "358 miles",
+        "acceleration": "3.1s 0-60"
+      }
+    },
+  
+    
+    {
+      "name": "Engine Spare Parts Kit",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a18", "name": "Auto Parts" },
+      "price": 299.00,
+      "variations": [{"image": "/assets/Product/sparepart.png"}],
+      "attributes": {
+        "compatibility": "Toyota models"
+      }
+    },
+  
+    {
+      "name": "Mobile Accessories Bundle",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a19", "name": "Accessories" },
+      "price": 49.99,
+      "variations": [{"image": "/assets/Product/mobileaccessory.png"}],
+      "attributes": {
+        "includes": "Charger, cables, case"
+      }
+    },
+    {
+      "name": "Wireless Mouse",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a19", "name": "Accessories" },
+      "price": 29.99,
+      "variations": [{"image": "/assets/Product/mouse.png"}],
+      "attributes": {
+        "dpi": "2400",
+        "connection": "Bluetooth"
+      }
+    },
+    {
+      "name": "RGB Gaming Mouse",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a19", "name": "Accessories" },
+      "price": 79.99,
+      "variations": [
+        {"image": "/assets/Product/gamingmouse.png"},
+        {"image": "/assets/Product/gamingmouse2.png"}
+      ],
+      "attributes": {
+        "buttons": "Programmable 8-button"
+      }
+    },
+    {
+      "name": "Mechanical Keyboard",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a19", "name": "Accessories" },
+      "price": 129.99,
+      "variations": [{"image": "/assets/Product/gamingkeyboard.png"}],
+      "attributes": {
+        "switch": "Cherry MX Red",
+        "layout": "Tenkeyless"
+      }
+    },
+    {
+      "name": "USB Flash Drive",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a19", "name": "Accessories" },
+      "price": 19.99,
+      "variations": [{"image": "/assets/Product/flash.png"}],
+      "attributes": {
+        "capacity": "128GB",
+        "speed": "150MB/s"
+      }
+    },
+  
+   
+    {
+      "name": "ASUS ROG Zephyrus",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1a", "name": "Laptops" },
+      "price": 1999.99,
+      "variations": [{"image": "/assets/Product/asus.png"}],
+      "attributes": {
+        "gpu": "RTX 3070",
+        "refresh": "240Hz display"
+      }
+    },
+    {
+      "name": "HP Spectre x360",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1a", "name": "Laptops" },
+      "price": 1499.00,
+      "variations": [{"image": "/assets/Product/hp.png"}],
+      "attributes": {
+        "display": "4K OLED",
+        "pen": "Included"
+      }
+    },
+    {
+      "name": "Samsung Galaxy Book",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1a", "name": "Laptops" },
+      "price": 1299.00,
+      "variations": [{"image": "/assets/Product/sanmsung.png"}],
+      "attributes": {
+        "screen": "AMOLED",
+        "weight": "1.15kg"
+      }
+    },
+    {
+      "name": "MacBook Pro 16-inch",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1a", "name": "Laptops" },
+      "price": 2499.00,
+      "variations": [{"image": "/assets/Product/macbook.png"}],
+      "attributes": {
+        "chip": "M1 Max",
+        "storage": "1TB SSD"
+      }
+    },
+  
+   
+    {
+      "name": "iPhone 15 Pro Max",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1b", "name": "Mobile" },
+      "price": 1299.00,
+      "variations": [{"image": "/assets/Product/iphone.png"}],
+      "attributes": {
+        "camera": "48MP Pro system",
+        "chip": "A17 Bionic"
+      }
+    },
+    {
+      "name": "Samsung 75-inch QLED TV",
+      "category": { "_id": "65a1d34b8c7d4e2d4e3b5a1c", "name": "TV & Home Theater" },
+      "price": 1999.00,
+      "variations": [
+        {"image": "/assets/Product/tv.png"},
+        {"image": "flatTve.png"}
+      ],
+      "attributes": {
+        "resolution": "8K UHD",
+        "features": "Quantum HDR"
+      }
+    }
+  ]

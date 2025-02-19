@@ -8,7 +8,7 @@ const productSchema = new mongoose.Schema({
   sold: { type: Number, default: 0 },
   description: { type: String, default: "" },
   variations: [
-    {
+    { 
       size: { type: String, default: "" },
       color: { type: String, default: "" },
       image: { type: String, default: "" },
