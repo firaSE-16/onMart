@@ -7,9 +7,7 @@ import { Star, Plus, Heart, ShoppingCart } from 'lucide-react';
 
 const ProductCard = ({product}) => {
   
-  const [sproduct,setSproduct] =useState({})
-
-
+  
   return (
     <div className='relative mb-10 mt-2 ml-10 h-[450px] w-76 bg-[#f2ede645] hover:bg-white flex flex-col items-center 
                    transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 

@@ -1,0 +1,28 @@
+[
+   
+    {
+      "name": "Shop Now",
+      "image": "/assets/Advertisement/Shop.png",
+      "alt": "Shop now banner"
+    },
+    {
+      "name": "Special Sale",
+      "image": "/assets/Advertisement/Special.png",
+      "alt": "Special sale banner"
+    },
+    {
+      "name": "Black Friday",
+      "image": "/assets/Advertisement/BlackFriday.png",
+      "alt": "Black Friday sale banner"
+    },
+    {
+      "name": "Cyber Monday",
+      "image": "/assets/Advertisement/CyberMonday.png",
+      "alt": "Cyber Monday sale banner"
+    },
+    {
+      "name": "Limited Offer",
+      "image": "/assets/Advertisement/limited.png",
+      "alt": "Limited time offer banner"
+    }
+  ]
